@@ -1,12 +1,13 @@
 Navrhněte a implementujte aplikaci (C#/WPF) pro zobrazení výškové mapy a její analýzu v zadané kruhové oblasti, které:
 
 1. Z datového souboru načtěte výškovou mapu území. Data jsou v textovém souboru, nejdříve je hlavička v této podobě:
-   - ncols počet sloupců matice
-   - nrows počet řádků matice
-   - xllcorner x-ová souřadnice levého spodního rohu výškové mapy
-   - yllcorner y-ová souřadnice levého spodního rohu výškové mapy
-   - cellsize – rozteč mezi body výškové mapy
-   - Dále pak následují výšky v jednotlivých bodech výškové mapy, jejich počet by měl být ncols x nrows.
+- ncols počet sloupců matice
+- nrows počet řádků matice
+- xllcorner x-ová souřadnice levého spodního rohu výškové mapy
+- yllcorner y-ová souřadnice levého spodního rohu výškové mapy
+- cellsize – rozteč mezi body výškové mapy
+
+Dále pak následují výšky v jednotlivých bodech výškové mapy, jejich počet by měl být ncols x nrows.
 
 2. Tuto výškovou mapu vykreslete v okně (černobíle - nejnižší body budou mít barvu černou, nejvyšší body barvu bílou).
 
